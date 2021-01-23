@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class QueryRunnerTest02 {
 
-    // BeanHander:是ResultSetHandler接口的实现类，用于封装表中的一条记录。
+    // BeanHandler:是ResultSetHandler接口的实现类，用于封装表中的一条记录。
     @Test
     public void testQuery1(){
         Connection conn = null;

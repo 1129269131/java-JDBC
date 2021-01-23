@@ -51,7 +51,6 @@ public abstract class BaseDAO01<T> {
         } finally {
             // 4.资源的关闭
             JDBCUtils.closeResource(null, ps);
-
         }
 
         return 0;
